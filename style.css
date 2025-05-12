@@ -1,0 +1,86 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff0f5;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #ffe0e9, #fddde6);
+  color: #a13d5b;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.8rem;
+}
+
+header .lead {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #7a2e44;
+}
+
+main {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.section {
+  background: white;
+  padding: 24px;
+  margin-bottom: 24px;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+  color: #a13d5b;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 20px;
+  background-color: #d36b92;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #b85778;
+}
+
+.button.line {
+  background-color: #06c755;
+}
+
+.button.line:hover {
+  background-color: #059b44;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #fde3ec;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.faq h3 {
+  margin-top: 20px;
+  color: #a13d5b;
+  font-size: 1.05rem;
+}
+
+.faq p {
+  margin: 5px 0 15px;
+  color: #444;
+}

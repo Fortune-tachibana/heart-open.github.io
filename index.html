@@ -5,43 +5,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>こころの窓口</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  
+  <!-- OGP（SNSカード表示用） -->
+  <meta property="og:title" content="こころの窓口">
+  <meta property="og:description" content="あなたの心に寄り添う、やさしい相談窓口です。匿名でご相談いただけます。">
+  <meta property="og:image" content="https://example.com/og-image.jpg">
+  <meta property="og:url" content="https://yourdomain.com">
+  <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
-  <header>
+  <header class="fade-in">
     <h1>こころの窓口</h1>
     <p class="lead">ことばにするだけで、少し楽になることがあります。<br>一人で抱えこまないで。<br>あなたの心に寄り添う場所が、ここにあります。</p>
+    <a href="#consult" class="button cta">今すぐ相談する</a>
   </header>
 
   <main>
-    <section class="section">
+    <section class="section fade-in" id="consult">
       <h2>あなたの声を届けてください</h2>
       <p>悩みや不安、どんなことでも構いません。安心してご相談ください。</p>
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfdkGwbc8I949jsEJcr0xMTXZ_mDdxaHAmv9T68oXhB4CheQw/viewform?usp=dialog" target="_blank" class="button">Googleフォームで相談する</a>
+      <p>GoogleフォームまたはLINE、どちらからでもご相談いただけます。</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfdkGwbc8I949jsEJcr0xMTXZ_mDdxaHAmv9T68oXhB4CheQw/viewform?usp=dialog" target="_blank" class="button">
+        <i class="fa-solid fa-pen-to-square"></i> Googleフォームで相談する
+      </a>
     </section>
 
-    <section class="section">
+    <section class="section fade-in">
       <h2>LINEで相談する</h2>
       <p>公式LINEアカウントからも相談できます。匿名でのご相談も大丈夫です。</p>
-      <a href="https://lin.ee/6bHJY88y" target="_blank" class="button line">LINEでつながる</a>
+      <a href="https://lin.ee/6bHJY88y" target="_blank" class="button line">
+        <i class="fa-brands fa-line"></i> LINEでつながる
+      </a>
     </section>
 
-    <section class="section">
-  <h2>よくあるご質問（FAQ）</h2>
-  <div class="faq">
-    <h3>Q. どんな悩みを相談しても大丈夫ですか？</h3>
-    <p>A. はい、どんな内容でも構いません。人間関係、学校、仕事、将来のことなど、自由にお話しください。</p>
+    <section class="section fade-in">
+      <h2>対応時間について</h2>
+      <p>ご相談は<span style="font-weight: bold;">土日・夜間を含め、24時間受け付けています。</span><br>
+      返信には少しお時間をいただく場合もありますが、必ずお返事いたします。</p>
+    </section>
 
-    <h3>Q. 名前を名乗る必要はありますか？</h3>
-    <p>A. いいえ、匿名でのご相談も可能です。無理のない範囲でご利用ください。</p>
+    <section class="section fade-in">
+      <h2>よくあるご質問（FAQ）</h2>
+      <div class="faq">
+        <h3>Q. どんな悩みを相談しても大丈夫ですか？</h3>
+        <p>A. はい、どんな内容でも構いません。人間関係、学校、仕事、将来のことなど、自由にお話しください。</p>
 
-    <h3>Q. すぐに返事はもらえますか？</h3>
-    <p>A. 内容によってはお時間をいただくことがありますが、できる限り丁寧に対応いたします。</p>
+        <h3>Q. 名前を名乗る必要はありますか？</h3>
+        <p>A. いいえ、匿名でのご相談も可能です。無理のない範囲でご利用ください。</p>
 
-    <h3>Q. 相談は誰が対応していますか？</h3>
-    <p>A. 基本的には相談対応のトレーニングを受けたスタッフが、真摯に対応いたします。</p>
-  </div>
-</section>
+        <h3>Q. すぐに返事はもらえますか？</h3>
+        <p>A. 内容によってはお時間をいただくことがありますが、できる限り丁寧に対応いたします。</p>
 
+        <h3>Q. 相談は誰が対応していますか？</h3>
+        <p>A. 基本的には相談対応のトレーニングを受けたスタッフが、真摯に対応いたします。</p>
+      </div>
+    </section>
   </main>
 
   <footer>
